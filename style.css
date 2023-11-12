@@ -1,0 +1,32 @@
+
+#canvas {
+    position: relative;
+    margin: 50px auto;
+    display: block;
+    background-color: #FBE4A4;
+    border: 20px solid #F75904;
+}
+#newGameButton {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    z-index: 10;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#newGameButton:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#newGameButton:focus {
+    outline: none;
+}

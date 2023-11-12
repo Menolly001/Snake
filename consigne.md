@@ -1,6 +1,6 @@
 > ctrl+shift+v sur VS Code pour analyser ce fichier markdown
 > 
-### Le jeu du dé :
+### SnakeGame :
 
 <br>
 
@@ -9,8 +9,17 @@
 <br>
 <br>
 
-### 1 - La conception du jeu :
-Définissez les règles du jeu, notamment comment le serpent se déplace, comment il grandit, comment le jeu se termine (par exemple, en heurtant un mur ou en se mordant lui-même), et comment le score est calculé.
+### 1 - Règles du jeu :
+
+Pour jouer au “jeu du serpent” ou “snake”, on doit contrôler un serpent à l’aide des touches du clavier. 
+Le serpent doit manger des pommes. 
+Le but du jeu est de faire manger le plus de pommes pour qu’il grandisse. 
+Plus il en mangera, plus il grandira et plus le score augmentera. 
+Chaque pomme mangé donnera 10 points. 
+Mais attention, il ne faut pas que le serpent entre en collision avec lui-même sinon c'est perdu. 
+Vous pouvez relancer la partie en cliquant sur “NewGame”. 
+
+faire : score
 
 <br>
 
