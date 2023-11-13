@@ -6,17 +6,29 @@ let isPaused = false; // état de pause
 let gameSpeed = 100; // vitesse du jeu
 let direction = "right"; // direction initiale
 
+
 // creation du canvas
 let canvas = document.getElementById("canvas");
 document.body.appendChild(canvas);
 canvas.width = canvasWidth;
 canvas.height = canvasHeight;
-canvas.style.border = "20px solid #F75904";
+canvas.style.border = "20px solid gray";
 canvas.style.margin = "50px auto";
 canvas.style.display = "block";
-canvas.style.backgroundColor = "#FBE4A4";
+
+canvas = document.getElementById("canvas");
+let container = document.getElementById("canvas-container");
+container.appendChild(canvas);
+canvas.width = canvasWidth;
+canvas.height = canvasHeight;
+
+// void ctx.arc(x, y, rayon, angleDépart, angleFin, sensAntiHoraire);
+
+
+
 
 let ctx = canvas.getContext("2d");
+ctx.arc = 
 snake[0] = { x: 4 * blockSize, y: 4 * blockSize };
 
 
